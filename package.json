@@ -1,0 +1,33 @@
+{
+  "name": "contratify",
+  "version": "1.0.0",
+  "description": "Aplicación para la generación de contratos y exportación a PDF",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "contratify": "file:",
+    "docx-pdf": "^0.0.1",
+    "docxtemplater": "^3.51.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "html-pdf": "^3.0.1",
+    "jszip": "^3.10.1",
+    "mssql": "^11.0.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.12.3",
+    "pizzip": "^3.1.7",
+    "puppeteer": "^23.5.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
